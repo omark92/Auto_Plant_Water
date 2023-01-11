@@ -1,13 +1,11 @@
 import org.firmata4j.I2CDevice;
 import org.firmata4j.Pin;
 import org.firmata4j.firmata.FirmataDevice;
-import org.firmata4j.ssd1306.MonochromeCanvas;
 import org.firmata4j.ssd1306.SSD1306;
 import java.io.IOException;
 import java.util.Timer;
-import java.util.TimerTask;
 
-public class project {
+public class Configure {
     static final byte I2C0 = 0x3C;
 
     public static void main(String[] args) throws IOException, InterruptedException {
